@@ -16,14 +16,14 @@
         />
     </head>
     <body>
-      <div class="header">
+        <div class="header">
             <div class="nav">
                 <ul>
                     <li><a href="index.html">Character list</a></li>
                     <li><a href="mod.html">Mod list</a></li>
                 </ul>
             </div>
-      </div>
+        </div>
 
         <div class="content">
             <h1>Danh sách MOD game RDR2</h1>
@@ -492,5 +492,15 @@
                 </li>
             </ul>
         </div>
+        <!-- Script -->
+        <script>
+            // Lấy tất cả các thẻ <a> trong trang
+            const links = document.querySelectorAll("a");
+
+            // Duyệt qua tất cả các liên kết và thêm thuộc tính target="_blank"
+            links.forEach((link) => {
+                link.setAttribute("target", "_blank");
+            });
+        </script>
     </body>
 </html>
