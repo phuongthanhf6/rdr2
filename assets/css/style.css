@@ -96,9 +96,9 @@ a {
     font-family: "Anton", sans-serif;
 }
 
-.person-item .dess {
+.person-item .desc {
     padding-top: 10px;
-    color: #000;
+    color: #b5048f;
     font-weight: 500;
     font-size: 1.8rem;
 }
