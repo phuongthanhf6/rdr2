@@ -1,0 +1,44 @@
+body {
+    line-height: 1.6;
+    font-family: var(--font-3);
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.container h1 {
+    color: var(--color-4);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: var(--font-1);
+    font-weight: 600;
+}
+
+.container h2 {
+    color: var(--color-2);
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.container p {
+    margin-bottom: 10px;
+}
+
+.container ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container li {
+    margin-bottom: 8px;
+}
+
+.container strong {
+    color: #333;
+}

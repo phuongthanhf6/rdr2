@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-1: #0396ff;
+    --color-2: #7367f0;
+    --color-3: #32ccbc;
+    --color-4: #f55555;
+    --color-5: #ffd503;
+    --color-6: #ff0396;
+    --color-7: #00000a;
+    --font-1: "Anton", sans-serif;
+    --font-2: "Orbitron", sans-serif;
+    --font-3: "Be Vietnam Pro", sans-serif;
+    --font-system: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 html {
     font-size: 62.5%;
 }
